@@ -38,11 +38,11 @@ public class Pessoa {
 	    public void calcularImc(Pessoa pessoa){
 	        float imc = pessoa.peso/(pessoa.altura*pessoa.altura);
 	        
-	        if(imc >=18.5  && imc <= 24.9){
+	        if(imc >= 18.5  && imc <= 24.9){
 	            System.out.println("Faixa de peso normal !!!");
 	            System.out.println("IMC= " + imc + "\n");
 	        }
-	        else if (imc <= 30){
+	        else if (imc >= 25 && imc <= 30){
 	            System.out.println("Faixa acima do peso !!!");
 	            System.out.println("IMC= " + imc + "\n");
 	        }
