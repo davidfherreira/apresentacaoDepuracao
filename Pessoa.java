@@ -42,7 +42,8 @@ public class Pessoa {
 	            System.out.println("Faixa de peso normal !!!");
 	            System.out.println("IMC= " + imc + "\n");
 	        }
-	        else if (imc >= 25 && imc <= 30){
+			// bug do codigo
+	        else if (imc >= 25 ){
 	            System.out.println("Faixa acima do peso !!!");
 	            System.out.println("IMC= " + imc + "\n");
 	        }
